@@ -1,5 +1,5 @@
-//const fetch = require('node-fetch'); // Import the 'node-fetch' library if you haven't already
 
+const fetch = require('node-fetch');
 const API_KEY = "AIzaSyBA1rR_q3Hurh_jV0NH8fIoQ6qiucjeoWQ";
 
 const CrUXApiUtil = {
