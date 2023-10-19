@@ -4,7 +4,7 @@ const router = express.Router();
 const api = require('../api/ChromeReport');
 
 router.get('/', (req, res) => {
-    res.json({ text: 'Hello'})
+    res.write('Welcome to CrUX API')
     res.end();
 })
 
